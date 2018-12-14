@@ -28,4 +28,6 @@ var multiplication = function(number1, number2) {
     var number2 = parseInt(prompt("Enter second number for multiplication"));
     alert(multiplication(number1, number2));
     
-    
+var str = 'Twas the night before Xmas...';
+var newstr = str.replace(/xmas/i, 'Christmas');
+    alert(newstr);
